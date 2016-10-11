@@ -19,4 +19,4 @@ seahawks.points$won <- seahawks.points$diff > 0
 opponents <- c("Dolphins", "Rams", "49ers", "Jets")
 
 # Assign your dataframe rownames of their opponents
-seahawks.points$opponents <- opponents
+rownames(seahawks.points) <- opponents
